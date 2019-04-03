@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "no.hvl.dat108.task3.Main",
+            "projectName": "dat108-oblig1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "no.hvl.dat108.Main",
+            "projectName": "dat108-oblig1"
+        }
+    ]
+}

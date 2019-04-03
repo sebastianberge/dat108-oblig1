@@ -12,7 +12,7 @@ public class Buffer {
      *
      * @param item the new item
      */
-    public void add(Integer item) {
+    public synchronized void add(Integer item) {
         while (true) {
             if (buffer.size() == SIZE) {
                 try {
@@ -32,7 +32,7 @@ public class Buffer {
      *
      * @return next item
      */
-    public Integer remove() {
+    public synchronized Integer remove() {
         while (true) {
             if (buffer.size() == 0) {
                 try {

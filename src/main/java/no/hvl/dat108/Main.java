@@ -3,6 +3,11 @@ package no.hvl.dat108;
 public class Main {
 
     public static void main(String[] args) {
-        // TODO
+        Buffer buffer = new Buffer();
+        Producer producer = new Producer(buffer);
+        Consumer consumer = new Consumer(buffer);
+
+        producer.start();
+        consumer.start();
     }
 }
